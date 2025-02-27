@@ -3,11 +3,8 @@ import os
 import requests
 from telethon import TelegramClient, events
 from pymongo import MongoClient
-from config import API_ID, API_HASH, BOT_TOKEN, MONGO_URI, TMDB_API_KEY
 from telethon.tl.custom import Button
 from dotenv import load_dotenv
-import os
-import itertools
 
 
 load_dotenv()
